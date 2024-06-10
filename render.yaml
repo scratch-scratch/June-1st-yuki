@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: fuyfuyvuy
+    name: nmnmnmnmnmnmnmmmn
     env: python
     region: Oregon
     plan: free
