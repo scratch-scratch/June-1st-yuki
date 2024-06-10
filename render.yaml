@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: ubg365net
+    name: heo3-face-yyml
     env: python
     region: Oregon
     plan: free
