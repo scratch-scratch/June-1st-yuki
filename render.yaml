@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: mathisfun-fun-fun
+    name: ubg365net
     env: python
     region: Oregon
     plan: free
