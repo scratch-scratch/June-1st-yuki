@@ -2,7 +2,6 @@
 <head>
     <meta charset='utf-8'>
     <title>英単語レベル</title>
-    <meta http-equiv="refresh" content="3;url=https://m.youtube.com/">
     <script>function getlevel(){
         if(document.getElementById('word').value == "yuki"){document.cookie = "yuki=True; path=/;";}else{
         let req = new XMLHttpRequest();
@@ -11,8 +10,6 @@
         req.send();}
     }</script>
 </head>
-    残念ながらこのyukiユーチューブは使えません<br>
-    1秒後に本家へリダイレクト…もうしたか<br>
     <input id="word" type="text"></input><input type="button" onClick="getlevel()">確認</input>
     <div id="info">
 </body>
