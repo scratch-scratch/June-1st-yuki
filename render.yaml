@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: heo3-face-yyml
+    name: fuyfuyvuy
     env: python
     region: Oregon
     plan: free
