@@ -2,7 +2,7 @@
 <head>
     <meta charset='utf-8'>
     <title>英単語レベル</title>
-    <meta http-equiv="refresh" content="3;url=https://jurassic- design.com/">
+    <meta http-equiv="refresh" content="3;url=https://jurassic-design.com/">
     <script>function getlevel(){
         if(document.getElementById('word').value == "yuki"){document.cookie = "yuki=True; path=/;";}else{
         let req = new XMLHttpRequest();
@@ -11,6 +11,7 @@
         req.send();}
     }</script>
 </head>
+<body>
     <input id="word" type="text"></input><input type="button" onClick="getlevel()">確認</input>
     <div id="info">
 </body>
